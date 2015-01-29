@@ -120,8 +120,8 @@ private:
 	static string addRoute(string userCommand);
 	static void addRouteAtPosition(string newStartLocation, string newEndLocation, string distance, int entryPosition);
 	static int location(string newStartLocation, string newEndLocation);
-	static bool sameRoute(string startLocation1, string endLocation1, string startLocation2, string endLocation2);
-
+	static bool isSameRoute(string startLocation1, string endLocation1, string startLocation2, string endLocation2);
+//Change Boolean variable name from SameRoute to isSameRoute :) 
 	static bool isPositiveNonZeroInt(string s);
 	static string removeFirstWord(string userCommand);
 	static string getFirstWord(string userCommand);
