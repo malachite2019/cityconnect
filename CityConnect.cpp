@@ -290,11 +290,11 @@ bool CityConnect::sameRoute(string startLocation1,
 bool CityConnect::isPositiveNonZeroInt(string s){
 		int i = parseInt(s);
 
-		if(i == INVALID_NUMBER_FORMAT) {
+		if(i <= INVALID_NUMBER_FORMAT) {
 			return false;
 		} else { 
-			//return true if i is greater than 0
-			return (i > 0 ? true : false);
+			//return true if i is greater than or equal to 0
+			return  true 
 		}
 }
 
